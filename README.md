@@ -8,8 +8,11 @@ This Library Management System backend has been successfully implemented accordi
 
 ### Data Models
 - **Books**: ID, title, author, year, quantity
-- **Users**: ID, full_name, email, phone  
+- **Users**: ID, full_name, email, phone
 - **Rentals**: ID, user_id, book_id, rental_date, due_date, return_date, is_returned
+
+### Entity Relationship Diagram (ERD)
+![Library System ERD](assets/erd.png)
 
 ### API Endpoints Implemented
 - `GET /books/` - Get all books
@@ -30,7 +33,7 @@ This Library Management System backend has been successfully implemented accordi
 
 ### CLI Commands
 - ✅ Database initialization (`init_database`, `init_sqlite`)
-- ✅ CSV data import (`import_data`, `import_sqlite`)  
+- ✅ CSV data import (`import_data`, `import_sqlite`)
 - ✅ Test runner (`run_test`)
 
 ### Testing
