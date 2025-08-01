@@ -12,7 +12,7 @@ This Library Management System backend has been successfully implemented accordi
 - **Rentals**: ID, user_id, book_id, rental_date, due_date, return_date, is_returned
 
 ### Entity Relationship Diagram (ERD)
-![Library System ERD](assets/erd.png)
+![Library System ERD](assets/ERD_library.png)
 
 ### API Endpoints Implemented
 - `GET /books/` - Get all books
